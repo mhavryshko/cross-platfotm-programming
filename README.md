@@ -1,1 +1,18 @@
-# cross-platfotm-programming
+# Лабораторні роботи з кросплатформенного програмування
+
+Цей репозиторій включає в себе всі виконані лабораторні роботи.
+
+## Інструкції з використання
+
+### Для запуску проекту виконайте команду:
+``
+dotnet build Build.proj -t:Run -p:Solution=LAB1
+``
+### Для запуску тестів виконайте команду:
+``
+dotnet build Build.proj -t:Test -p:Solution=LAB1
+``
+### Для білда проекту виконайте команду:
+``
+dotnet build Build.proj -t:Build -p:Solution=LAB1
+``
