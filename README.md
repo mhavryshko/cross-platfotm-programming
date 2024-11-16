@@ -16,3 +16,20 @@ dotnet build Build.proj -t:Test -p:Solution=LAB1
 ``
 dotnet build Build.proj -t:Build -p:Solution=LAB1
 ``
+
+
+## Лабораторна робота 4
+
+### linux ubuntu
+
+![image](https://github.com/user-attachments/assets/879f0e54-4eae-41be-9a43-469b92b9a645)
+
+### windows
+
+![image](https://github.com/user-attachments/assets/9d200a2c-9c76-4ede-86f2-e107d23b3da2)
+
+### macos
+![image](https://github.com/user-attachments/assets/e3b79300-094c-4e54-badc-537fe0904099)
+https://forums.virtualbox.org/viewtopic.php?f=6&t=92649
+
+![image](https://github.com/user-attachments/assets/e9b17b4f-36e2-47c7-9ed6-f59153dd0435)
