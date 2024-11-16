@@ -33,3 +33,9 @@ dotnet build Build.proj -t:Build -p:Solution=LAB1
 https://forums.virtualbox.org/viewtopic.php?f=6&t=92649
 
 ![image](https://github.com/user-attachments/assets/e9b17b4f-36e2-47c7-9ed6-f59153dd0435)
+
+## Nuget package
+![image](https://github.com/user-attachments/assets/60965db0-2703-490e-bb25-4e82c9fde390)
+![image](https://github.com/user-attachments/assets/9d06abc8-3228-4576-bf5a-22df0e99369b)
+
+
