@@ -48,6 +48,9 @@ https://forums.virtualbox.org/viewtopic.php?f=6&t=92649
 ![image](https://github.com/user-attachments/assets/ca162358-469b-4028-bc17-2a249b92cdbd)
 
 ## Працює на UBUNTU
+![image](https://github.com/user-attachments/assets/8261c015-6a6a-4721-b44e-87478a92a832)
+![Снимок экрана 2024-11-17 185600](https://github.com/user-attachments/assets/f7b94bf5-14c1-443c-8740-a5937d416498)
+
 
 
 
