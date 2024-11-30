@@ -37,6 +37,7 @@ https://forums.virtualbox.org/viewtopic.php?f=6&t=92649
 ## Nuget repository
 ![image](https://github.com/user-attachments/assets/47ba27b0-7818-4ae0-87d9-84dba6e20cf6)
 ![image](https://github.com/user-attachments/assets/a1934728-896a-4c01-9b75-64580c833105)
+![image](https://github.com/user-attachments/assets/e2f1d6ba-204a-4f70-a1c2-c639794e9cf4)
 
 
 
