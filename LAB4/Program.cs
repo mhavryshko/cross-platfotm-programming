@@ -147,7 +147,20 @@ class SetPathCommand
             return;
         }
 
-        Environment.SetEnvironmentVariable("LAB_PATH", Path);
-        Console.WriteLine($"Path set to: {Path}");
+        if (!Directory.Exists(Path))
+        {
+            Console.WriteLine($"The specified path '{Path}' does not exist.");
+            return;
+        }
+
+        try
+        {
+            Environment.SetEnvironmentVariable("LAB_PATH", Path, EnvironmentVariableTarget.User);
+            Console.WriteLine($"Path successfully set to: {Path}");
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Failed to set path. Error: {ex.Message}");
+        }
     }
 }

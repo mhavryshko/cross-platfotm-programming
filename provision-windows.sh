@@ -12,8 +12,8 @@ refreshenv
 # Verify installation
 dotnet --version
 
-# Додавання пакету MBulakh версії 1.0.0
-#dotnet add package MBulakh --version 1.0.0
+# Додавання пакету MHavryshko версії 1.0.0 з BaGet
+dotnet add package MHavryshko --version 1.0.0 --source BaGet
 
 # Navigate to the project directory
 cd C:\project

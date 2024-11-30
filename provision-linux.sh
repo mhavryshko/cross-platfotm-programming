@@ -11,8 +11,14 @@ sudo apt-get install -y dotnet-sdk-8.0
 # Перехід до директорії проекту
 cd /vagrant
 
-# Додавання пакету MBulakh версії 1.0.0
-#dotnet add package MBulakh --version 1.0.0
+# Додавання джерела для BaGet (приватний NuGet репозиторій)
+dotnet nuget add source http://localhost:5000/v3/index.json --name BaGet --store-password-in-clear-text
+
+# Перевірка наявності BaGet як джерела
+dotnet nuget list source
+
+# Додавання пакету MHavryshko версії 1.0.0 з BaGet
+dotnet add package MHavryshko --version 1.0.0 --source BaGet
 
 # Запуск проекту
 dotnet run run lab1 --input LAB1/INPUT.TXT --output LAB1/OUTPUT.TXT
